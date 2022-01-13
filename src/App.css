@@ -11,5 +11,6 @@ body {
 .container {
   display: flex;
   height: 100vh;
-  background-color: #EDEDED;
+  width: 100vw;
+  overflow-x: hidden;
 }

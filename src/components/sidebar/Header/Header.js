@@ -17,7 +17,7 @@ import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
 import SearchIcon from '@mui/icons-material/Search';
 
 const logoSrc = 'https://files.tecnoblog.net/wp-content/uploads/2021/11/venom-branco.png'
-const styleButton = { width: '10px', height: '10px', color: '#51585c' }
+const styleButton = { width: '20px', height: '20px', color: '#51585c' }
 
 export default function Header() {
   return (
@@ -40,7 +40,7 @@ export default function Header() {
       <SearchContainer>
        <SearchComponent>
           <SearchIcon style={styleButton}/>
-          <SearchInput placeholder='Pesquisar ou começar uma nova conv...'/>
+          <SearchInput placeholder='Pesquisar ou começar uma nova conversa'/>
        </SearchComponent>
       </SearchContainer>
     </Container>

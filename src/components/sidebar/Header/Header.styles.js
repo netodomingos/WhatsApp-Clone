@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div``
 
 export const InternalContainer = styled.div`
- height: 30px;
+ height: 60px;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -11,8 +11,8 @@ export const InternalContainer = styled.div`
 `
 
 export const Avatar = styled.img`
- width: 20px;
- height: 20px;
+ width: 40px;
+ height: 40px;
  border-radius: 20px;
  cursor: pointer;
 `
@@ -25,7 +25,7 @@ export const Buttons = styled.div`
 
 export const Button = styled.button`
  display: flex;
- margin: 0 2px;
+ margin: 0 10px;
  justify-content: center;
  align-items: center;
  border: none;
@@ -37,7 +37,7 @@ export const Button = styled.button`
 
 export const SearchContainer = styled.div`
   background-color: #f0f0f0;
-  height: 30px;
+  height: 50px;
   display: flex;
   align-items: center;
 `
@@ -45,9 +45,9 @@ export const SearchContainer = styled.div`
 export const SearchComponent = styled.div`
   border: 1px solid #FFF;
   width: 95%;
-  margin: 0 5px;
+  margin: 0 10px;
   border-radius: 20px;
-  padding: 4px 5px;
+  padding: 8px 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -57,9 +57,9 @@ export const SearchComponent = styled.div`
 export const SearchInput = styled.input`
   border: none;
   outline: none;
-  width: 90%;
+  width: 100%;
   margin-left: 10px;
-  font-size: 7px;
+  font-size: 13px;
 `
 
 

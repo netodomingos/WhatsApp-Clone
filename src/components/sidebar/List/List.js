@@ -9,11 +9,15 @@ import {
   Message
 } from './List.styles'
 
-export default function List(props) {
+import { useUser } from '../../../context/user'
+
+export default function List({chatlist}) {
+  const { setUser } = useUser()
+
   return (
     <Container>
-      {props.chatlist.map(item => (
-        <ChatContainer>
+      {chatlist.map(item => (
+        <ChatContainer onClick={() => setUser(item)} key={item.id}>
           <Picture src={item.picture}/>
           <ChatInternalContainer>
             <Name>{item.name}</Name>
@@ -23,4 +27,4 @@ export default function List(props) {
       ))}
     </Container>
   )
-}
+} 
